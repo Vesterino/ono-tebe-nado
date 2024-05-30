@@ -46,7 +46,7 @@
     line-height: 24.3px;
 }
 
-.header__address-house, .footer__address-house {
+.address__place {
     line-height: 24.3px;
 }
 
@@ -164,6 +164,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    row-gap: 25px;
     list-style: none;
 }
 
