@@ -75,39 +75,34 @@
 .cover__title {
     position: relative;
     z-index: 2;
-    padding-top: 165px;
+    padding: 165px 50px 135px;
     font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
     color: #FFF;
     line-height: 115px;
+    letter-spacing: 0.3em;
 }
 
 .aligned-text {
     display: block;
-    letter-spacing: 3px;
-    padding-left: 50px;
-}
-
-.letter-spacing-extended {
-    letter-spacing: 17px;
+    line-height: 115px;
 }
 
 .aligned-text_center {
-    display: block;
-    padding-top: 21px;
-    line-height: 100px;
+    margin-top: 19px;
     text-align: center;
-    letter-spacing: 24px;
+    line-height: 100px;
 }
 
 .aligned-text_right {
-    display: block;
-    padding-top: 20px;
-    white-space: nowrap;
-    line-height: 100px;
+    margin-top: 20px;
     text-align: right;
-    letter-spacing: 28px;
+    line-height: 100px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
 }
 
 .no-letter-extended {
@@ -117,7 +112,6 @@
 .cover__description {
     position: relative;
     z-index: 2;
-    padding-top: 135px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -126,13 +120,13 @@
 }
 
 .cover__description-text {
-    padding-left: 25px;
+    padding-left: 30px;
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 400;
-    word-spacing: 19px;
+    word-spacing: 18px;
 }
 
 .bet-button {
@@ -141,7 +135,7 @@
     cursor: pointer;
     background-color: transparent;
     border: 1px #fff solid;
-    font-family: Raleway, serif;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 500;
     color: #fff;
@@ -207,6 +201,7 @@
 .card__title {
     z-index: 1;
     font-size: 22px;
+    line-height: 26px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
@@ -259,16 +254,13 @@
 }
 
 .about__text {
+    padding-bottom: 24px;
     font-size: 20px;
     line-height: 24px;
 }
 
-.about__text-lots {
-    padding-bottom: 24px;
-}
-
 .footer {
-    padding: 180px 0 88px 50px;
+    padding: 157px 0 88px 55px;
     display: grid;
     gap: 42px;
     grid-template-columns: 240.52px 4fr 2.7fr;
